@@ -1,4 +1,5 @@
 import React from 'react';
+import MyButton from './MyButton';
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
           <li><a href="http://brunch.io">Brunch homepage</a></li>
           <li><a href="https://facebook.github.io/react/">React.js homepage</a></li>
         </ul>
+        <MyButton />
       </div>
     );
   }
