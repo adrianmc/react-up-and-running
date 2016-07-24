@@ -1,8 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
+import style from './style.css';
 
 const Component = (props) =>
-  <button onClick={props.onClick}>{props.children}</button>;
+  <button
+    onClick={props.onClick}
+    className={style.myButton}
+  >
+    {props.children}
+  </button>;
 
 Component.defaultProps = {
   children: 'hello there',
