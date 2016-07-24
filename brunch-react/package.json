@@ -10,7 +10,9 @@
   "scripts": {
     "start": "brunch watch --server",
     "prod": "brunch build --production",
-    "storybook": "start-storybook -p 9001"
+    "storybook": "start-storybook -p 9001",
+    "lint": "eslint . --ext .js --ext .jsx",
+    "lintfix": "npm run lint -- --fix"
   },
   "dependencies": {
     "react": "~15.2.1",
