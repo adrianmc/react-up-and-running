@@ -8,7 +8,7 @@ module.exports = {
     loaders: [
       {
         test: /\.css?$/,
-        loaders: ['style', 'raw'],
+        loader: 'style!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
         include: path.resolve(__dirname, '../'),
       },
     ],
