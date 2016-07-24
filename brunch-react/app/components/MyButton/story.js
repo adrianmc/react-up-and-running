@@ -19,4 +19,4 @@ storiesOf('MyButton', module)
 
   .add('button with long text', () => (
     <MyButton>This is a long piece of text. Hello, how do you do?</MyButton>
-  ))
+  ));
